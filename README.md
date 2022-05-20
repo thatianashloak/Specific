@@ -1,0 +1,2 @@
+# Specific
+Total numbers =... ;Some java query which returns a number, I included the console. $i = 0 Do     $i += 1     $Specific =... ;Some java query which returns a number, I included the console.     $Specific_Numers = StringRegExp($Specific, '\d+(?:,\d+)?', 1)     Sleep(10)     ConsoleWrite (@CRLF &amp; $i &amp; " " &amp; "Total numbers =" &amp; $Total_Numbers &amp; " Smaller size is =" &amp; $Specific_Numers[0] ) Until $Total_Numbers >$Specific_Numers[0]
